@@ -12,7 +12,8 @@ Dream 1 trains on measures 287 - 310 of 'Palais de Mari,' without duration info,
 1.0 generates the next chord by selecting any predicted notes above 0.1, leading to larger chords than the training data.  
 1.1 tries to constrain by making every other note a one pitch, often with comic results.  
 1.2 is the same as 1.0, but generates new music based on a random sampling of training data.  
-1.3 is the same as 1.0, but generates new music based on random ~44 note chords. 1.4 adds nodes in the LSTM for deciding chord size (in this case, 0, 1, 2, or 3), which gets pretty plausible results.
+1.3 is the same as 1.0, but generates new music based on random ~44 note chords.  
+1.4 adds nodes in the LSTM for deciding chord size (in this case, 0, 1, 2, or 3), which gets pretty plausible results.
 
 Dream 2 trains on measures 287 - 310 of 'Palais de Mari,' with nodes for chord size (4) and duration info. Training data is divided into smallest ictus (32nd notes), mostly zeroes. 
 
